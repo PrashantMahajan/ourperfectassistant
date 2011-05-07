@@ -1,12 +1,12 @@
-#summary One-sentence summary of this page.
+#summary One can travel across the land. A few can travel around the world. A team can travel into outer-space.
 #labels Featured
 
-= Introduction =
+= What we are =
 
 Our team consists currently of 3 developers.
 
 
-= Contributors =
+= Who we are =
 
  * Gordon Radney - gradney@gmail.com
  * Prashant Mahajan - prashantmahajan.ma@gmail.com

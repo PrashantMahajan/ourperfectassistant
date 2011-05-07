@@ -3,7 +3,7 @@
 
 = Introduction =
 
-Our team consists currently of 3 players.
+Our team consists currently of 3 developers.
 
 
 = Contributors =

@@ -11,5 +11,6 @@ Our team consists currently of 3 developers.
  * Gordon Radney - gradney@gmail.com
  * Prashant Mahajan - prashantmahajan.ma@gmail.com
  * Deepak Jain - deepak.bestguy@gmail.com
-
+'what is inline code'
+---
 _*We believe email is sufficient for now._

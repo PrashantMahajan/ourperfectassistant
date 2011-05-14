@@ -13,7 +13,6 @@ import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 import javax.swing.JLabel;
 import javax.swing.JButton;
-import javax.swing.JTextArea;
 
 public class Main extends JApplet implements ActionListener {
 	

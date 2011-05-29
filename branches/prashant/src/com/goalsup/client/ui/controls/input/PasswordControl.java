@@ -5,6 +5,9 @@ import com.google.gwt.user.client.ui.PasswordTextBox;
 
 public class PasswordControl extends TextBoxControl implements IPasswordControl {
 	private PasswordTextBox g_ctlPassword = new PasswordTextBox();
+	public PasswordControl (String prm_sLabel) {
+		super(prm_sLabel);
+	}
 	@SuppressWarnings("unchecked")
 	@Override
 	public <nativeGWTControl extends IsWidget> nativeGWTControl getNativeGWTControl() {

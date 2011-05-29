@@ -5,6 +5,10 @@ import com.google.gwt.user.client.ui.IsWidget;
 
 public class LabelControl extends Control implements ILabelControl {
 
+	public LabelControl(String prm_sString) {
+		super(prm_sString);
+	}
+
 	@Override
 	public <nativeGWTControl extends IsWidget> nativeGWTControl getNativeGWTControl() {
 		return null;

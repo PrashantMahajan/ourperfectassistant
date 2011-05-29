@@ -6,7 +6,8 @@ import com.google.gwt.user.client.ui.TextBox;
 
 public class TextBoxControl extends Control {
 	private TextBox g_ctlControl = new TextBox();
-	public TextBoxControl () {
+	public TextBoxControl (String prm_sLabel) {
+		super(prm_sLabel);
 	}
 	@SuppressWarnings("unchecked")
 	@Override

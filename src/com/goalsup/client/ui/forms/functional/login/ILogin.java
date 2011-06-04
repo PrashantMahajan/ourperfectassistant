@@ -1,5 +1,7 @@
 package com.goalsup.client.ui.forms.functional.login;
 
-public interface ILogin {
+import com.goalsup.client.ui.forms.IForm;
+
+public interface ILogin extends IForm {
 
 }

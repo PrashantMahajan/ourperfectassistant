@@ -1,21 +1,22 @@
 package com.goalsup.client.ui.controls.input;
 
-import com.goalsup.client.ui.controls.Control;
-import com.google.gwt.user.client.ui.IsWidget;
+import com.google.gwt.user.client.ui.Label;
 
-public class LabelControl extends Control implements ILabelControl {
+public class LabelControl extends Label implements ILabelControl {
 
+	private String label = "";
 	public LabelControl(String prm_sString) {
-		super(prm_sString);
+		this.setLabel(prm_sString);
+		this.setText(prm_sString);
 	}
 
 	@Override
-	public <nativeGWTControl extends IsWidget> nativeGWTControl getNativeGWTControl() {
-		return null;
+	public String getLabel() {
+		return this.label;
 	}
 
 	@Override
-	public <nativeGWTControl extends IsWidget> void setNativeGWTControl(nativeGWTControl prm_objNativeControl) {
+	public void setLabel(String prm_sLabel) {
+		this.label = prm_sLabel;
 	}
-
 }

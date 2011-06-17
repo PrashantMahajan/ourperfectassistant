@@ -11,7 +11,7 @@ I, G-Rad, wanted to test out the quick app by Google's AppEngine and so I follow
   #. Open browser, clear the browser cache (as the Tomcat page may have cached in browser), and type "http://localhost:8080". 
   #. If error displays regarding missing page or something, then continue. If another webpage appears, then there's another issue.
   #. Within Command Prompt window, go to directory of Google App Engine Java SDK.
-  #. Run command "<<appenginesdkdirectory>>\bin\dev_appserver.cmd <appenginesdkdirectory>\demos\guestbook\war"
+  #. Run command "< appenginesdkdirectory >\bin\dev_appserver.cmd <appenginesdkdirectory>\demos\guestbook\war"
   #. Command Prompt should display messages stating the app is running.
   #. Press Ctrl+C to stop app server from running.
   #. Now, to change the port (using appengine command option "--port"), run command "<appenginesdkdirectory>\bin\dev_appserver.cmd --port=<newPortNumber> <appenginesdkdirectory>\demos\guestbook\war", where <newPortNumber> is a port number like "8686" (instead of the default port number).
@@ -23,10 +23,3 @@ I, G-Rad, wanted to test out the quick app by Google's AppEngine and so I follow
 
 = Reference =
 http://code.google.com/appengine/docs/java/tools/devserver.html
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages

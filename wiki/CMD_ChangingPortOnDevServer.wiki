@@ -21,5 +21,7 @@ I, G-Rad, wanted to test out the quick app by Google's App Engine and so I follo
   #. Go back to Services and start Tomcat, and see Tomcat is able to run on port 8080 (i.e. http://localhost:8080) while Guestbook app is running on port 8686.
   #. Have fun testing, problem solved!
 
+NOTE: The Google Guestbook web application will always run by default port 8080. Thus, stating the new port is necessary always to run the web application while another server is using port 8080. Again, this is simply a Dev Server environment. So, if you do not want to have to state the new port each time you run the web app of Google App Engine from the Command Prompt window, then, in this instance, shut off Tomcat until done developing with Google App Engine.
+
 = Reference =
 http://code.google.com/appengine/docs/java/tools/devserver.html

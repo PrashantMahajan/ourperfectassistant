@@ -1,7 +1,7 @@
 #summary Changing the port on local dev server via Command Prompt.
 
 = Problem =
-I, G-Rad, wanted to test out the quick app by Google's AppEngine and so I followed the instructions on their site ("Trying a Demo Application" section @ http://code.google.com/appengine/docs/java/gettingstarted/installing.html) but ran into issue with loading the war from within Command Prompt window. The issue is that I automatically have Tomcat running as my local server and so I need my Google App Dev Server (locally) to run on a different port. The local port is 8080, by default (when running from within Command Prompt). If running in Eclipse, by default the port is 8888, FYI. How do I launch the guestbook.war without sacrificing my Tomcat server (which is currently binded to my local port 8080)?
+I, G-Rad, wanted to test out the quick app by Google's App Engine and so I followed the instructions on their site ("Trying a Demo Application" section @ http://code.google.com/appengine/docs/java/gettingstarted/installing.html) but ran into issue with loading the war from within Command Prompt window. The issue is that I automatically have Tomcat running as my local server and so I need my Google App Dev Server (locally) to run on a different port. The local port is 8080, by default (when running from within Command Prompt). If running in Eclipse, by default the port is 8888, FYI. How do I launch the guestbook.war without sacrificing my Tomcat server (which is currently binded to my local port 8080)?
 
 = Solution =
   #. To ensure this is the issue, open browser and type "http://localhost:8080" and if Tomcat Manager appears, then Tomcat is running on port 8080 (thus, continue with these steps). Otherwise, something else that is running on your PC is binded to port 8080.

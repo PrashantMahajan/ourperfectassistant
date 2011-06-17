@@ -4,14 +4,14 @@
 I, G-Rad, wanted to test out the quick app by Google's AppEngine and so I followed the instructions on their site ("Trying a Demo Application" section @ http://code.google.com/appengine/docs/java/gettingstarted/installing.html) but ran into issue with loading the war from within Command Prompt window. The issue is that I automatically have Tomcat running as my local server and so I need my Google App Dev Server (locally) to run on a different port. The local port is 8080, by default (when running from within Command Prompt). If running in Eclipse, by default the port is 8888, FYI. How do I launch the guestbook.war without sacrificing my Tomcat server (which is currently binded to my local port 8080)?
 
 = Solution =
-#. To ensure this is the issue, open browser and type "http://localhost:8080" and if Tomcat Manager appears, then Tomcat is running on port 8080 (thus, continue with these steps). Otherwise, something else that is running on your PC is binded to port 8080.
-#. From PC Windows Start menu, Go to Run and type "services.msc" or in the Search box type "Services", Press Enter (on keyboard).
+  #. To ensure this is the issue, open browser and type "http://localhost:8080" and if Tomcat Manager appears, then Tomcat is running on port 8080 (thus, continue with these steps). Otherwise, something else that is running on your PC is binded to port 8080.
+  #. From PC Windows Start menu, Go to Run and type "services.msc" or in the Search box type "Services", Press Enter (on keyboard).
 2. See list of services that the PC is running, identify the Tomcat service, right-click on it, Click Properties, see if Service status is "Started".
 3. If Tomcat service is started, click Stop and ensure the status changes to "Stopped".
 4. Open browser, clear the browser cache (as the Tomcat page may have cached in browser), and type "http://localhost:8080". 
 5. If error displays regarding missing page or something, then continue. If another webpage appears, then there's another issue.
 6. Within Command Prompt window, go to directory of Google App Engine Java SDK.
-7. Run command "<appenginesdkdirectory>\bin\dev_appserver.cmd <appenginesdkdirectory>\demos\guestbook\war"
+7. Run command "<<appenginesdkdirectory>>\bin\dev_appserver.cmd <appenginesdkdirectory>\demos\guestbook\war"
 8. Command Prompt should display messages stating the app is running.
 9. Press Ctrl+C to stop app server from running.
 10. Now, to change the port (using appengine command option "--port"), run command "<appenginesdkdirectory>\bin\dev_appserver.cmd --port=<newPortNumber> <appenginesdkdirectory>\demos\guestbook\war", where <newPortNumber> is a port number like "8686" (instead of the default port number).

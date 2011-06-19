@@ -2,8 +2,16 @@
 
 = Status Update =
 
-Deepak -
+Deepak - no tangible update, studying GWT and other
 
-Gordon -
+Gordon - no tangible update, busy with interviews, re-installed Eclipse with Google App Plugin
 
 Prashant - none (enjoying NYC)
+
+= Next Week's Goals =
+
+
+= Last Week's Goals =
+Deepak will create a class for the Submit Button.
+Prashant will create a single Database class, save some data in the database.
+Gordon will checkout Prashant’s code, make a couple changes to deploy and see effects, revert my changes to Prashant’s code, and add a couple classes, also figure out effective use of Wiki for documentation.

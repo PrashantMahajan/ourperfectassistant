@@ -2,16 +2,28 @@
 
 = Status Update =
 
-Deepak - no tangible update, studying GWT and other
+Deepak - coded the submit button, no tangible update, studying GWT and other
 
-Gordon - no tangible update, busy with interviews, re-installed Eclipse with Google App Plugin
+Gordon - 
+Figured out to set up development environment and created the document on how to setup the development environment using Google App Engine.
 
 Prashant - none (enjoying NYC)
 
-= Next Week's Goals =
+= This Week's Goals =
+Gordon 
+- resolve issues and finish last week's goals.
+- talk to Prashant about our best way for Deepak to contribute (by coding/learning to code OR applying his business skills in creating models, etc.)
+- outline for our project goals this summer.
 
+Deepak
+- will continue to code the submit button.
+- wait on Gordon to talk to Prashant about his suggestion in focusing on the business models.
+
+Prashant
+- continue from last week's goals.
 
 = Last Week's Goals =
 Deepak will create a class for the Submit Button.
 Prashant will create a single Database class, save some data in the database.
-Gordon will checkout Prashant’s code, make a couple changes to deploy and see effects, revert my changes to Prashant’s code, and add a couple classes, also figure out effective use of Wiki for documentation.
+
+Gordon will checkout Prashant’s code (pass), make a couple changes to deploy and see effects (failed with issues), revert my changes to Prashant’s code (failed with issues), and add a couple classes (failed with issues), also figure out effective use of Wiki for documentation (in progress).

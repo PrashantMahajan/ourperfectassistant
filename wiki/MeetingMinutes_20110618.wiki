@@ -2,12 +2,14 @@
 
 = Status Update =
 
-Deepak - coded the submit button, no tangible update, studying GWT and other
+Deepak 
+- coding still the submit button, studying GWT
 
-Gordon - 
-Figured out to set up development environment and created the document on how to setup the development environment using Google App Engine.
+Gordon 
+- Figured out to set up development environment and created the document on how to setup the development environment using Google App Engine.
 
-Prashant - none (enjoying NYC)
+Prashant 
+- none (enjoying NYC)
 
 = This Week's Goals =
 Gordon 

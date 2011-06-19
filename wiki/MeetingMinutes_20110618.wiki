@@ -24,6 +24,7 @@ Prashant
 
 = Last Week's Goals =
 Deepak will create a class for the Submit Button.
+
 Prashant will create a single Database class, save some data in the database.
 
 Gordon will checkout Prashant’s code (pass), make a couple changes to deploy and see effects (failed with issues), revert my changes to Prashant’s code (failed with issues), and add a couple classes (failed with issues), also figure out effective use of Wiki for documentation (in progress).

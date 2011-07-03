@@ -2,14 +2,18 @@
 
 = Status Update =
 
-Deepak 
-- coding still the submit button, studying GWT
+Deepak
+- basically, concluding that will not be efficient if coding
+- would like to come up with business models and talk to other businesses and investors for when the product is ready
+- Prashant suggested that Deepak be the project manager, and also do code reviews
 
 Gordon 
-- Figured out to set up development environment and created the document on how to setup the development environment using Google App Engine.
+- submit current code on local into SVN
+- make adjustments to the code for GoalsUp (in process of learning Google API)
 
 Prashant 
-- none (enjoying NYC)
+- need goals and team motivation
+- none (enjoying Las Vegas)
 
 = This Week's Goals =
 Gordon 

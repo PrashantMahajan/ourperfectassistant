@@ -12,21 +12,21 @@ Prashant
 
 = This Week's Goals =
 Gordon 
-- make progress to Google App Engine web example
-- read Google API
-- make adjustments to the code for GoalsUp (in process of learning Google API)
-- make walkthrough designs (like already have on G-Docs)
+ # make progress to Google App Engine web example
+ # read Google API
+ # make adjustments to the code for GoalsUp (in process of learning Google API)
+ # make walkthrough designs (like already have on G-Docs)
 ? - outline for our project goals this summer.
 
 Deepak
-- come up with task items for July
-- come up with motivation (reward system)
-- provide feedback on Prashant's code
+ # come up with task items for July
+ # come up with motivation (reward system)
+ # provide feedback on Prashant's code
 
 Prashant
-- plans to start with Database Design (with sample data)
-- create basic classes represented as tables, dao (classes interfacing to database) 
-- plans to work for at least 4 hours
+ # plans to start with Database Design (with sample data)
+ # create basic classes represented as tables, dao (classes interfacing to database) 
+ # plans to work for at least 4 hours
 
 = Last Week's Goals =
 Look at meeting minutes from July 2, 2011

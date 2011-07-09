@@ -1,0 +1,3 @@
+# Module guestbook
+# RPC service class, partial path of RPC policy file
+com.google.guestbook.client.GreetingService, 38F9873E209EB79FB5A882AEB97FA278.gwt.rpc

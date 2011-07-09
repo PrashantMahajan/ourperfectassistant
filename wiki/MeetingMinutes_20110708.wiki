@@ -11,12 +11,11 @@ Prashant
 - no update since came back from Las Vegas
 
 = This Week's Goals =
-Gordon 
+*Gordon* 
  # make progress to Google App Engine web example
  # read Google API
  # make adjustments to the code for GoalsUp (in process of learning Google API)
  # make walkthrough designs (like already have on G-Docs)
-? - outline for our project goals this summer.
 
 Deepak
  # come up with task items for July

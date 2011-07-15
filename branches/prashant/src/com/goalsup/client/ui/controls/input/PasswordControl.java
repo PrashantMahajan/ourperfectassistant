@@ -4,6 +4,7 @@ import com.google.gwt.user.client.ui.PasswordTextBox;
 
 public class PasswordControl extends PasswordTextBox implements IPasswordControl {
 	private String label = "";
+	
 	public PasswordControl(String prm_sString) {
 		this.setLabel(prm_sString);
 	}

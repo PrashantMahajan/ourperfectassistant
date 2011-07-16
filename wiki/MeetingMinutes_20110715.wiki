@@ -1,14 +1,20 @@
 #summary - Meeting Minutes - 20110715
 
 = Status Update =
-Gordon 
-- updated SVN with my Guestbook (Google Web App Example)
-
 Deepak
-- no update, waiting on tech guys
+- no update, praying to God for us.
 
-Prashant 
-- no update since came back from Las Vegas
+Gordon (3 hours)
+Yes - make progress to Google App Engine web example (Guestbook)
+No - read Google API
+No - make adjustments to the code for GoalsUp (in process of learning Google API)
+No - make walkthrough designs (like already have on G-Docs)
+
+Prashant (3 hours)
+- did some Google App Engine work, and uploaded it.
+Yes - plans to start with Database Design (with sample data)
+Yes - create basic classes represented as tables, dao (classes interfacing to database) 
+No - plans to work for at least 4 hours
 
 = This Week's Goals =
 *Deepak*
@@ -17,16 +23,18 @@ Prashant
  # provide feedback on Prashant's code
  # remind Gordon/Prashant about Laura's idea
 
-*Gordon* 
- # make progress to Google App Engine web example
+*Gordon*
+ # finish Google App Engine web example
  # read Google API
  # make adjustments to the code for GoalsUp (in process of learning Google API)
  # make walkthrough designs (like already have on G-Docs)
 
 *Prashant*
- # plans to start with Database Design (with sample data)
- # create basic classes represented as tables, dao (classes interfacing to database) 
- # plans to work for at least 4 hours
+ # update Database Design (with sample data)
+ # update basic classes represented as tables, dao (classes interfacing to database) 
+ # implement the correct Unit Tests for saving data
+ # update design for saving hierarchy (base and user tables)
+ # add delete feature to querying
 
 = Last Week's Goals =
-Look at meeting minutes from July 2, 2011
+Look at meeting minutes from July 8, 2011

@@ -55,4 +55,4 @@ See Open Discussion.
  # add delete feature to querying
 
 = Last Week's Goals =
-Look at meeting minutes from July 29, 2011
+Look at meeting minutes from July 21, 2011

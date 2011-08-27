@@ -1,2 +1,0 @@
-serviceClass: com.goalsup.client.GreetingService
-path: 976D0692568E9B99FD45C2E56C025663.gwt.rpc

@@ -15,14 +15,19 @@
 		/**
 		 * Constructor
 		 */
+		
+		private static $DB_PORT = 3307;
+		
 		private static $C_USER_CONNECTION = "user";
 		private static $C_SERVICE_CONNECTION = "service";
 
 		private static $C_MAX_ACTIVE_USERS = 3;
 		private static $C_CURRENT_ACTIVE_USERS = 0;
+		private static $C_REQUESTED_USER = 0;
 
 		private static $C_MAX_ACTIVE_SERVICE_USERS = 3;
 		private static $C_CURRENT_ACTIVE_SERVICE_USERS = 0;
+		private static $C_REQUESTED_SERVICE_USER = 0;
 
 		public function __construct(){
 		}
@@ -41,14 +46,18 @@
 				 */
 
 				if (array_key_exists(dbconnectionpooling::$C_USER_CONNECTION, $_SERVER)) {/*If the Application Doesn't have one*/
-					$v_Return = $_SERVER[dbconnectionpooling::$C_USER_CONNECTION];
+					$v_Return = $_SERVER[$C_REQUESTED_USER];
+					$C_REQUESTED_USER++;
+					if ($C_REQUESTED_USER > $C_CURRENT_ACTIVE_USERS) {
+						$C_REQUESTED_USER = 0;
+					}
 				} else {
 					if (dbconnectionpooling::$C_MAX_ACTIVE_USERS > dbconnectionpooling::$C_CURRENT_ACTIVE_USERS) {
 						$v_sDatabseServer = "localhost";
 						$v_sUserName = "root";
 						$v_sPassword = "root";
 						$v_sDatabseName = "goalsup";
-						$v_Return = new userconnection($v_sDatabseServer, $v_sUserName, $v_sPassword, $v_sDatabseName);
+						$v_Return = new serviceconnection($v_sDatabseServer, $v_sUserName, $v_sPassword, $v_sDatabseName, dbconnectionpooling::$DB_PORT);
 						if ($v_Return->connect_error) {
 							throw(mysqli_connect_error());
 						}
@@ -56,7 +65,7 @@
 						dbconnectionpooling::$C_CURRENT_ACTIVE_USERS++;
 					} else {
 						/*Big Time error*/
-						die(messages::getMessage(messages::$C_CODE_MAX_DATABASE_CONNECTIONS_EXCEED));
+						die("You are fucked!");
 					}
 				}
 			} catch (exception $v_exException) {
@@ -85,7 +94,7 @@
 						$v_sUserName = "root";
 						$v_sPassword = "root";
 						$v_sDatabseName = "goalsup";
-						$v_Return = new serviceconnection($v_sDatabseServer, $v_sUserName, $v_sPassword, $v_sDatabseName);
+						$v_Return = new serviceconnection($v_sDatabseServer, $v_sUserName, $v_sPassword, $v_sDatabseName, dbconnectionpooling::$DB_PORT);
 						if ($v_Return->connect_error) {
 							throw(mysqli_connect_error());
 						}
@@ -93,7 +102,7 @@
 						dbconnectionpooling::$C_CURRENT_ACTIVE_SERVICE_USERS++;
 					} else {
 						/*Big Time error*/
-						die(messages::getMessage(messages::$C_CODE_MAX_DATABASE_CONNECTIONS_EXCEED));
+						die("You are fucked!");
 					}
 				}
 			} catch (Exception $v_exException) {

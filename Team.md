@@ -1,0 +1,14 @@
+# What we are #
+
+Our team consists currently of 3 developers.
+
+
+# Who we are #
+
+  * Gordon Radney - gradney@gmail.com
+  * Prashant Mahajan - prashantmahajan.ma@gmail.com
+  * Deepak Jain - deepak.bestguy@gmail.com
+
+
+---
+
